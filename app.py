@@ -36,8 +36,8 @@ def auth():
     print("app2")
     user= request.form.get('uname')
     password= request.form.get('psw')
-    user='lol'
-    password='lol'
+    user='adhula'
+    password='adhula'
     print(user,password)
     #check if the username and password are valid
     usename,pswd = getcredentials()
